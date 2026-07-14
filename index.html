@@ -1,215 +1,304 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Vaishnavi Thottupurath Vasu</title>
+
+<title>Vaishnavi Thottupurath Vasu | Portfolio</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
 <style>
+
 *{
 margin:0;
 padding:0;
 box-sizing:border-box;
-font-family:Arial,sans-serif;
+font-family:'Poppins',sans-serif;
+scroll-behavior:smooth;
 }
 
 body{
-background:#f5f7fa;
-color:#333;
-}
 
-header{
-background:#0F172A;
+background:#08111F;
 color:white;
-text-align:center;
-padding:80px 20px;
+
 }
 
-header h1{
-font-size:48px;
-margin-bottom:10px;
+nav{
+
+display:flex;
+justify-content:space-between;
+align-items:center;
+
+padding:25px 10%;
+
+position:fixed;
+
+width:100%;
+
+background:#08111F;
+
+z-index:1000;
+
 }
 
-header h2{
-font-size:22px;
-font-weight:normal;
+.logo{
+
+font-size:28px;
+font-weight:bold;
+color:#3B82F6;
+
+}
+
+nav ul{
+
+display:flex;
+list-style:none;
+
+}
+
+nav ul li{
+
+margin-left:30px;
+
+}
+
+nav ul li a{
+
+color:white;
+
+text-decoration:none;
+
+font-size:16px;
+
+transition:.3s;
+
+}
+
+nav ul li a:hover{
+
+color:#3B82F6;
+
+}
+
+.hero{
+
+display:flex;
+
+justify-content:space-between;
+
+align-items:center;
+
+padding:140px 10%;
+
+min-height:100vh;
+
+}
+
+.left{
+
+width:55%;
+
+}
+
+.left h3{
+
+font-size:24px;
+
+color:#3B82F6;
+
+}
+
+.left h1{
+
+font-size:58px;
+
+margin:15px 0;
+
+}
+
+.left h2{
+
+font-size:28px;
+
+font-weight:400;
+
+margin-bottom:25px;
+
 color:#cbd5e1;
+
+}
+
+.left p{
+
+line-height:1.8;
+
+font-size:18px;
+
+color:#d1d5db;
+
 }
 
 .btn{
+
 display:inline-block;
-margin-top:25px;
-padding:14px 30px;
+
+margin-top:35px;
+
+padding:15px 35px;
+
 background:#2563EB;
+
 color:white;
+
 text-decoration:none;
+
 border-radius:8px;
+
+transition:.3s;
+
+}
+
+.btn:hover{
+
+background:#1D4ED8;
+
+}
+
+.right img{
+
+width:350px;
+
+border-radius:50%;
+
+border:6px solid #2563EB;
+
+box-shadow:0 0 30px rgba(37,99,235,.4);
+
 }
 
 section{
-max-width:1000px;
-margin:auto;
-padding:60px 20px;
+
+padding:100px 10%;
+
 }
 
-.card{
-background:white;
-padding:30px;
-border-radius:10px;
-box-shadow:0 5px 15px rgba(0,0,0,.1);
-margin-top:20px;
+.title{
+
+font-size:40px;
+
+margin-bottom:30px;
+
+color:#3B82F6;
+
 }
 
-h3{
-color:#2563EB;
-margin-bottom:20px;
-font-size:30px;
+.about{
+
+display:flex;
+
+gap:40px;
+
+align-items:center;
+
 }
 
-.skills span{
-display:inline-block;
-background:#2563EB;
-color:white;
-padding:8px 14px;
-margin:5px;
-border-radius:20px;
-font-size:14px;
+.about p{
+
+line-height:2;
+
+font-size:18px;
+
+color:#d1d5db;
+
 }
 
 footer{
-background:#0F172A;
-color:white;
-text-align:center;
+
 padding:30px;
-margin-top:50px;
+
+text-align:center;
+
+background:#111827;
+
+color:#aaa;
+
 }
+
 </style>
 
 </head>
 
 <body>
 
-<header>
+<nav>
+
+<div class="logo">Vaishnavi.</div>
+
+<ul>
+
+<li><a href="#">Home</a></li>
+
+<li><a href="#about">About</a></li>
+
+<li><a href="#experience">Experience</a></li>
+
+<li><a href="#skills">Skills</a></li>
+
+<li><a href="#contact">Contact</a></li>
+
+</ul>
+
+</nav>
+
+<div class="hero">
+
+<div class="left">
+
+<h3>Hello, I'm</h3>
 
 <h1>Vaishnavi Thottupurath Vasu</h1>
 
 <h2>QA Automation Engineer | MSc Cybersecurity Candidate @ ECE Paris</h2>
 
-<p style="margin-top:20px;">
-8+ Years of Experience in Test Automation, API Testing & DevSecOps
+<p>
+
+Software Test Automation Engineer with 8+ years of experience in Selenium, API Testing, Azure DevOps, CI/CD and Performance Testing.
+
+Passionate about Cybersecurity, DevSecOps and Secure Software Development.
+
 </p>
 
-</header>
-
-<section>
-
-<h3>About Me</h3>
-
-<div class="card">
-
-I am a QA Automation Engineer with over 8 years of experience in Software Testing, Selenium Automation, API Testing, Performance Testing and CI/CD.
-
-I will be pursuing an MSc in Cybersecurity at ECE Engineering School, Paris.
-
-I am actively looking for QA Automation, Software Testing and Cybersecurity opportunities in France.
+<a class="btn" href="#">Download Resume</a>
 
 </div>
 
-</section>
+<div class="right">
 
-<section>
-
-<h3>Professional Experience</h3>
-
-<div class="card">
-
-<h4>QA Automation Engineer</h4>
-
-<p><strong>Oxfam GB</strong> | 2022 – Present</p>
-
-<ul>
-
-<li>Selenium Automation Framework Development</li>
-
-<li>REST API Automation</li>
-
-<li>Azure DevOps CI/CD</li>
-
-<li>Reduced regression testing from 3 weeks to 2 days</li>
-
-<li>Improved software quality by 40%</li>
-
-</ul>
-
-<br>
-
-<h4>Test Analyst</h4>
-
-<p><strong>Cognizant Technology Solutions</strong> | 2015 – 2021</p>
+<img src="https://avatars.githubusercontent.com/u/9919?s=400&v=4">
 
 </div>
 
-</section>
-
-<section>
-
-<h3>Technical Skills</h3>
-
-<div class="skills">
-
-<span>Java</span>
-<span>C#</span>
-<span>SQL</span>
-<span>Selenium</span>
-<span>Cypress</span>
-<span>Postman</span>
-<span>Rest Assured</span>
-<span>Azure DevOps</span>
-<span>Git</span>
-<span>JMeter</span>
-<span>Jira</span>
-
 </div>
 
-</section>
+<section id="about">
 
-<section>
+<h2 class="title">About Me</h2>
 
-<h3>Education</h3>
+<div class="about">
 
-<div class="card">
+<p>
 
-<b>MSc Cybersecurity</b><br>
+I am an experienced QA Automation Engineer with over 8 years of experience delivering high-quality software across Healthcare, Retail, Telecommunications and Non-Profit sectors.
 
-ECE Engineering School, Paris (Expected 2027)
+Currently pursuing my MSc in Cybersecurity at ECE Engineering School, Paris, I aim to transition into Application Security, DevSecOps and Cloud Security while continuing to leverage my strong background in software quality engineering.
 
-<br><br>
-
-<b>MSc Supply Chain Management</b><br>
-
-Anglia Ruskin University, UK
-
-<br><br>
-
-<b>Bachelor of Computer Applications</b><br>
-
-Amrita School of Arts & Sciences
-
-</div>
-
-</section>
-
-<section>
-
-<h3>Contact</h3>
-
-<div class="card">
-
-📧 vaishnavivaishu115@gmail.com
-
-<br><br>
-
-📍 Paris, France (Available from October 2026)
+</p>
 
 </div>
 
@@ -222,5 +311,4 @@ Amrita School of Arts & Sciences
 </footer>
 
 </body>
-
 </html>
